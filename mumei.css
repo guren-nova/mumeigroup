@@ -252,6 +252,30 @@ ol li h3 {
     text-decoration: none;
 }
 
+.cre {
+    padding: 10px 20px;
+    background-color: #ff2268;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+
+.ouensuru {
+    padding: 10px 20px;
+    background-color: #ffbb00;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-decoration: none;
+}
+
 footer{
     background-color: #000;
     display: flex;
@@ -265,9 +289,15 @@ footer{
     .syu {
       font-size: 3.5rem;
       gap: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
     .img {
       width: 40%;
+      height: auto;
+      margin-bottom: 10px;
     }
     .img2 {
       font-size: 1.5rem;
@@ -324,7 +354,10 @@ footer{
     main a.inbutton,
     main a.xbutton,
     main a.twbutton,
-    main a.nibutton {
+    main a.nibutton,
+    main a.haihu,
+    main a.ouensuru,
+    main a.cre {
       font-size: 0.9rem;
       padding: 0.6rem 1rem;
     }
@@ -338,9 +371,15 @@ footer{
   @media screen and (max-width: 480px) {
     .syu {
       font-size: 2.5rem;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
     .img {
-      width: 60%;
+      width: 80%;
+      height: auto;
     }
     .img2 {
       font-size: 1.2rem;
@@ -387,7 +426,10 @@ footer{
     main a.inbutton,
     main a.xbutton,
     main a.twbutton,
-    main a.nibutton {
+    main a.nibutton,
+    main a.haihu,
+    main a.ouensuru,
+    main a.cre {
       font-size: 0.8rem;
       padding: 0.5rem 0.8rem;
     }
@@ -396,16 +438,52 @@ footer{
     }
   }
 
+@media screen and (max-width: 1024px) {
+  .syu {
+    font-size: 4rem;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .img {
+    width: 35%;
+    margin-bottom: 10px;
+  }
+
+  .imgmen {
+    width: 40vw;
+  }
+
+  ol li {
+    font-size: 1.1rem;
+  }
+
+  main a.yobutton,
+  main a.dibutton,
+  main a.inbutton,
+  main a.xbutton,
+  main a.twbutton,
+  main a.nibutton,
+  main a.haihu,
+  main a.ouensuru,
+  main a.cre {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
+
 .yobutton:hover,
 .dibutton:hover,
 .inbutton:hover,
 .xbutton:hover,
 .twbutton:hover,
-.nibutton:hover {
+.nibutton:hover,
+.haihu:hover,
+.ouensuru:hover,
+.cre:hover {
   transform: scale(1.20);
 }
 
 .imgmen:hover {
   transform: scale(1.10);
 }
-  
