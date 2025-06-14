@@ -28,7 +28,7 @@ document.querySelector("button").addEventListener("click", function () {
                 body: JSON.stringify(payload)
             }).then(response => {
                 if (response.ok) {
-                    window.location.href = "C:\\Users\\hanam\\Desktop\\mumeigroup開発中\\entry\\sousin.html";
+                    window.location.href = "https://mumeigroup.guren-nova.net/entry/sousin";
                 } else {
                     alert("❌ エラーが発生しました。");
                 }
