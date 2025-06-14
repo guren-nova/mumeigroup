@@ -505,7 +505,7 @@ footer{
 .nibutton:hover,
 .haihu:hover,
 .ouensuru:hover,
-.cre:hover
+.cre:hover,
 .ent:hover {
   transform: scale(1.20);
 }
